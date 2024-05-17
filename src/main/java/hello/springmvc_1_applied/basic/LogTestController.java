@@ -27,4 +27,11 @@ public class LogTestController {
 
   }
 
+  /**
+   * @Controller: 반환값이 String 이면 뷰 이름으로 인식해서 뷰를 찾고 렌더링된다.
+   * @RestController:
+   *    반환값으로 뷰를 찾는 것이 아니라, Http MessageBody 에 바로 입력한다.
+   *    따라서 실행 결과로 상태 메시지를 받을 수 있다.
+   */
+
 }
